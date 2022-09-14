@@ -2515,6 +2515,21 @@
       (net 65 "Net-(Q3-Pad1)") (pinfunction "IO45") (pintype "bidirectional") (tstamp 4cb2d656-b46f-4663-8819-e13df1e11500))
     (pad "40" thru_hole oval (at -24.13 -11.43 180) (size 1.4 2) (drill 1) (layers *.Cu *.Mask)
       (net 19 "/User_SW") (pinfunction "IO46") (pintype "bidirectional") (tstamp c5b1b3ac-50b5-481e-97d6-6729d75fe5e2))
+    (model "G:/Projects/3d models/TTGO_ESP32_S2_sp.wrl"
+      (offset (xyz -31.3 -13.2 11.3))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.wrl"
+      (offset (xyz 24 11.3 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.wrl"
+      (offset (xyz 24 -11.3 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
