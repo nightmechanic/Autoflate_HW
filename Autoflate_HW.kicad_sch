@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Autoflate - Tire inflator controller board")
+    (date "2022-09-15")
+    (rev "1.0")
+    (company "Ran Katz")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x01_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -1908,7 +1915,6 @@
       )
     )
   )
-
 
   (junction (at 250.19 118.11) (diameter 0) (color 0 0 0 0)
     (uuid 01392282-f8c6-4966-b040-a798142727d5)
