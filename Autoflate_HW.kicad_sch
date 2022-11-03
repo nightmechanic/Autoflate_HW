@@ -6,8 +6,8 @@
 
   (title_block
     (title "Autoflate - Tire inflator controller board")
-    (date "2022-09-15")
-    (rev "1.0")
+    (date "2022-11-03")
+    (rev "1.1")
     (company "Ran Katz")
   )
 
